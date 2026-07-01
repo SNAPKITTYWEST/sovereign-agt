@@ -1,0 +1,13 @@
+[package]
+name = "sovereign-agt"
+version = "0.1.0"
+edition = "2021"
+description = "Agent governance hooks for proof release"
+license = "MIT OR Apache-2.0"
+authors = ["SnapKitty Collective"]
+repository = "https://github.com/SNAPKITTYWEST/sovereign-agt"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+thiserror = "2"
